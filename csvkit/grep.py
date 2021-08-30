@@ -121,7 +121,6 @@ def pattern_as_function(obj):
     # obj is string
     return lambda x: obj in x
 
-
 class regex_callable(object):
 
     def __init__(self, pattern):
